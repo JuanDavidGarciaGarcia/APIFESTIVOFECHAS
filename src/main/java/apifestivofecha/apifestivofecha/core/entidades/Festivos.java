@@ -28,7 +28,7 @@ public class Festivos {
     private int diaspascua;
 
     @ManyToOne
-    @JoinColumn(name = "idtipo", referencedColumnName = "tipo")
+    @JoinColumn(name = "idtipo", referencedColumnName = "id")
     private TipoFecha tipo;
 
     public Festivos() {
